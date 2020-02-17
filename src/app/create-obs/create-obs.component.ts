@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ApiService} from 'src/app/api.service';
 
 @Component({
   selector: 'app-create-obs',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreateObsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private api: ApiService) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    
+    const apiResponse = fetch(`${this.api.baseURL}data`)
+    
   }
 
 }
