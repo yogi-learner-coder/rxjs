@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    border: 1px dashed #ffbbcc;
+    margin: 1rem 0px;
+}
+p{
+    display: inline-block;    
+    vertical-align: top;
+}
+.space{
+    margin-left: 1rem;
+}
+label{
+    font-weight: bold;
+}
+label::after{
+    content: '-   ';
+}
