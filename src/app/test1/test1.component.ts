@@ -9,6 +9,7 @@ export class Test1Component implements OnInit {
   togglePara: boolean;;
   newArray: Array<any>=[];
   i:number;
+  18004194000
   constructor() {     
   }
 
