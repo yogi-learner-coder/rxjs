@@ -8,16 +8,22 @@ import { ExampleComponent } from './example/example.component';
 import { CreateObsComponent } from './create-obs/create-obs.component';
 import { RxjsOprtrComponent } from './rxjs-oprtr/rxjs-oprtr.component';
 
+import {HttpClientModule} from '@angular/common/http';
+import { MessageComponent } from './message/message.component';
+import { Test1Component } from './test1/test1.component';
 @NgModule({
   declarations: [
     AppComponent,
     ExampleComponent,
     CreateObsComponent,
-    RxjsOprtrComponent
+    RxjsOprtrComponent,
+    MessageComponent,
+    Test1Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
