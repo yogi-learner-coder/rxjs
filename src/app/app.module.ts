@@ -11,6 +11,8 @@ import { RxjsOprtrComponent } from './rxjs-oprtr/rxjs-oprtr.component';
 import {HttpClientModule} from '@angular/common/http';
 import { MessageComponent } from './message/message.component';
 import { Test1Component } from './test1/test1.component';
+import { FirstComponent } from './first/first.component';
+import { SecondComponent } from './second/second.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,9 @@ import { Test1Component } from './test1/test1.component';
     CreateObsComponent,
     RxjsOprtrComponent,
     MessageComponent,
-    Test1Component
+    Test1Component,
+    FirstComponent,
+    SecondComponent
   ],
   imports: [
     BrowserModule,
