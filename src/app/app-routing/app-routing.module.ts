@@ -6,28 +6,18 @@ import { RxjsOprtrComponent } from '../rxjs-oprtr/rxjs-oprtr.component';
 import { MessageComponent } from '../message/message.component';
 import { CartComponent } from '../cart/cart.component';
 import { Test1Component } from '../test1/test1.component';
+import { FoodGalleryComponent } from '../components/food-gallery/food-gallery.component';
 
 
 const routes:Routes = [
-  {
-    path: 'example',
-    component: ExampleComponent
-  },
-  {
-    path: 'obser',
-    component: CreateObsComponent
-  },
-  {
-    path: 'hello',
-    component: RxjsOprtrComponent
-  },
+
 {
   path: 'cart',
   component: CartComponent
 },
 {
-  path: 'test1',
-  component: Test1Component
+  path: 'food',
+  component: FoodGalleryComponent
 }
 
 ]

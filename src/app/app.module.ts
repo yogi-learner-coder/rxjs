@@ -13,6 +13,13 @@ import { MessageComponent } from './message/message.component';
 import { Test1Component } from './test1/test1.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
+
+import { ColorElementDirective } from './color-element.directive';
+import { HelloService } from './hello.service';
+import { FoodGalleryComponent } from './components/food-gallery/food-gallery.component';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,14 +29,16 @@ import { SecondComponent } from './second/second.component';
     MessageComponent,
     Test1Component,
     FirstComponent,
-    SecondComponent
+    SecondComponent,
+    ColorElementDirective,
+    FoodGalleryComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

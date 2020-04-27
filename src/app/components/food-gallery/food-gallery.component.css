@@ -1,0 +1,49 @@
+.food-gallery{
+    padding: 0px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 22%;
+    margin: 20px 1.4%;
+    padding: 0px;
+    display: inline-block;
+}
+.food_1{
+    padding: 10px 10px 0px 10px;
+}
+
+.food_1 span{
+    font-size: 12px;         
+    float: right;
+    margin-top: 8px;
+}
+.food_2{
+    padding: 10px 10px 0px 10px;
+}
+.food_3 {
+    padding: 10px;
+    text-align: right;;
+}
+
+.food_3 button{
+    border: 1px solid #999;
+    background-color: #fff;
+    color: #000000;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+}
+.food_3 button:hover{
+    cursor: pointer;
+}

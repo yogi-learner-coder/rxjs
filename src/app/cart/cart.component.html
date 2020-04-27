@@ -1,3 +1,7 @@
-<h1>Data from cart template</h1>
-
-
+<div class="cart">
+    <h1>Navigating from food gallery</h1>
+    <div *ngFor="let image of productImage">
+        <img [src]="image" />
+    </div>
+    <img [src]="productImage" alt="">
+</div>
