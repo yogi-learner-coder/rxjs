@@ -10,8 +10,13 @@ import { FoodGalleryComponent } from '../components/food-gallery/food-gallery.co
 
 
 const routes:Routes = [
+{
+  path: '',
+  component: FoodGalleryComponent
+},
 
 {
+
   path: 'cart',
   component: CartComponent
 },
